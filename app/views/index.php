@@ -37,7 +37,7 @@
                 <div class="card-body">
                     <div class="alert alert-info alert-dismissible fade show mb-3" role="alert">
                         <i class="fas fa-info-circle"></i> 
-                        Данные кэшируются на сервере на 5 минут
+                        Данные кэшируются на сервере на <?= round(CACHE_TIME / 60) ?> минут
                         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
                     </div>
                     
